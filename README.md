@@ -4,27 +4,49 @@
 Proyecto 1
 
 1- Implementar una clase Propietario
+
 2- Declare los siguientes atributos en la clase:
+
 -Nombre
+
 -CURP 
+
 -Edad
+
 -Fecha de Nacimiento Calle
+
 -Colonia
+
 -Ciudad Estado 
+
 -CP
+
 -Complemento
+
 3- Encapsular los atributos de la clase Propietario
+
 4- Los atributos nombre, CURP y Edad son obligatorios (crea un constructor con estos parámetros)
+
 5- Implemente una clase Carro
+
 6- Declare los siguientes atributos de la clase:
+
 -Modelo
+
 -Color
+
 -Año
+
 -Marca
+
 -Número de Serie
+
 -Dueño
+
 -Velocidad máxima
+
 -Velocidad actual
+
 -Número de puertas
 -¿Tienes un techo solar?
 -Número de velocidades
