@@ -8,19 +8,12 @@ Proyecto 1
 2- Declare los siguientes atributos en la clase:
 
 -Nombre
-
 -CURP 
-
 -Edad
-
 -Fecha de Nacimiento Calle
-
 -Colonia
-
 -Ciudad Estado 
-
 -CP
-
 -Complemento
 
 3- Encapsular los atributos de la clase Propietario
