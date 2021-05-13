@@ -25,29 +25,17 @@ Proyecto 1
 6- Declare los siguientes atributos de la clase:
 
 -Modelo
-
 -Color
-
 -Año
-
 -Marca
-
 -Número de Serie
-
 -Dueño
-
 -Velocidad máxima
-
 -Velocidad actual
-
 -Número de puertas
-
 -¿Tienes un techo solar?
-
 -Número de velocidades
-
 -¿Tienes caja de cambios automática?
-
 -Capacidad de combustible
 
 7- Encapsula la clase Carro y sus atributos;
