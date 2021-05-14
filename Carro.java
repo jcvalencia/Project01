@@ -4,7 +4,7 @@ public class Carro {
 	private String modelo;
 	private String color;
 	private int year;
-	private String marca; 
+	private Marca marca; 
 	private String numeroSerie;
 	private Propietario propietario;
 	private int velocidadMaxima; // Kilómetros por hora
@@ -55,7 +55,7 @@ public class Carro {
 		System.out.println("Velocidad Actual: " + velocidadActual);
 	}// acelerar
 	
-	public Carro(String modelo, String color, int year, String marca, String numeroSerie, Propietario propietario,
+	public Carro(String modelo, String color, int year, Marca marca, String numeroSerie, Propietario propietario,
 			int velocidadMaxima, int velocidadActual, int numeroPuertas, boolean techoSolar, int numeroVelocidades,
 			int numeroVelocidadActual, boolean automatico, int capacidadCombustible) {
 		super();
@@ -93,10 +93,10 @@ public class Carro {
 	public void setYear(int year) {
 		this.year = year;
 	}//setYear
-	public String getMarca() {
+	public Marca getMarca() {
 		return marca;
 	}//getMarca
-	public void setMarca(String marca) {
+	public void setMarca(Marca marca) {
 		this.marca = marca;
 	}//setMarca
 	public String getNumeroSerie() {
