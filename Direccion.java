@@ -4,6 +4,14 @@ public class Direccion {
 	private String ciudad;
 	private String estado; 
 	private String CP;
+
+	public Direccion(String calle, String colonia, String ciudad, String estado, String CP) {
+		this.calle = calle;
+		this.colonia = colonia;
+		this.ciudad = ciudad;
+		this.estado = estado;
+		this.CP = CP;
+	}// constructor
 	
 	public String getCalle() {
 		return calle;
