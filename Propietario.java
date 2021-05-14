@@ -3,17 +3,14 @@ public class Propietario {
 	private String CURP; 
 	private int edad;
 	private String fechaNacimiento; 
-	private String calle;
-	private String colonia;
-	private String ciudad;
-	private String estado; 
-	private String CP; // Se utiliza String porque existen códigos postales que inician con cero
+	private Direccion direccion;
 	private String complemento;
 
-	public Propietario(String nombre, String CURP, int edad) {
+	public Propietario(String nombre, String CURP, int edad, Direccion direccion) {
 		this.nombre = nombre;
 		this.CURP = CURP;
 		this.edad = edad;
+		this.direccion = direccion;
 	}// constructor
 
 	public String getNombre() {
@@ -44,49 +41,17 @@ public class Propietario {
 		return fechaNacimiento;
 	}//getFechaNacimiento
 
-	public void setFechaNacimiento(String fecha_de_Nacimiento) {
-		this.fechaNacimiento = fecha_de_Nacimiento;
+	public void setFechaNacimiento(String fechaNacimiento) {
+		this.fechaNacimiento = fechaNacimiento;
 	}// setFecha_de_Nacimiento
+	
+	public Direccion getDireccion() {
+		return direccion;
+	}// getDireccion
 
-	public String getCalle() {
-		return calle;
-	}//getCalle
-
-	public void setCalle(String calle) {
-		this.calle = calle;
-	}//setCalle
-
-	public String getColonia() {
-		return colonia;
-	}//getColonia
-
-	public void setColonia(String colonia) {
-		this.colonia = colonia;
-	}//setColonia
-
-	public String getCiudad() {
-		return ciudad;
-	}//getCiudad
-
-	public void setCiudad(String ciudad) {
-		this.ciudad = ciudad;
-	}//setCiudad
-
-	public String getEstado() {
-		return estado;
-	}//getEstado
-
-	public void setEstado(String estado) {
-		this.estado = estado;
-	}//setEstado
-
-	public String getCP() {
-		return CP;
-	}//getCP
-
-	public void setCP(String CP) {
-		this.CP = CP;
-	}//setCP
+	public void setDireccion(Direccion direccion) {
+		this.direccion = direccion;
+	}// setDireccion
 
 	public String getComplemento() {
 		return complemento;
